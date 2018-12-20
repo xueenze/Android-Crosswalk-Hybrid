@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <com.crosswalk.hybrid.CustomViewPager
+        android:id="@+id/frame_main_tab_container"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1" >
+    </com.crosswalk.hybrid.CustomViewPager>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_above="@id/tab_layout"
+        android:background="#ccc"/>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab_layout"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:tabIndicatorColor="#00000000"
+        android:layout_height="55dp"
+        android:background="#fbfbfb" />
+
+</LinearLayout>
+
