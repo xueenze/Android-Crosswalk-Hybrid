@@ -32,7 +32,7 @@ android:hardwareAccelerated="true"
 ### 框架简介
 各位看官可以关注**customcrosswalk**这个包中的内容，也是小编自己封装的CrossWalk组件，主要定制化了其中的**ResourceClient**，**UIClient**，**XWalkView**，以便于大家使用起来更加灵活，不过在小编的工程中集成了大量的基于当前业务的代码，这里小编也不方便暴露出来，望各位看官理解~
 
-`代码Down下来编译就可以使用，更多在Crosswalk环境下Native如何和H5通信的细节，请关注小编的另一个博客：[基于Crosswalk的国泰基金](https://blog.csdn.net/kameleon2013/article/details/82999084)`
+代码Down下来编译就可以使用，更多在Crosswalk环境下Native如何和H5通信的细节，请关注小编的另一个博客：[国泰基金 Hybrid App 开发探索](https://blog.csdn.net/kameleon2013/article/details/82999084)
 
 ### 如果有什么还不懂的话，请和小编共同讨论
 <kameleon@126.com>
